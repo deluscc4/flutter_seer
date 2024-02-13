@@ -32,7 +32,6 @@ class _VidenteState extends State<Vidente> {
   void mostraSorte() {
     setState(() {
       imageNumber = Random().nextInt(5) + 2;
-      ;
     });
   }
 
